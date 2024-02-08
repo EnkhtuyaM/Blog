@@ -1,8 +1,8 @@
 export default function Footer() {
   return (
     <div className="bg-[#E8E8EA] ">
-      <div className="  w-[1917px] m-auto py-16 px-80">
-        <div className="flex flex-col gap-6 w-[1216px] m-auto ">
+      <div className="  w-[1917px] py-16 px-72">
+        <div className="flex flex-col gap-6 w-[1216px] ">
           <div className="flex justify-between">
             <div className="flex flex-col gap-6">
               <div>
@@ -23,11 +23,11 @@ export default function Footer() {
               <p>Blog</p>
               <p>Contact</p>
             </div>
-            <div className="flex gap-8 justify-start items-start">
-              <img src="/F.svg" alt="" />
-              <img src="/T.svg" alt="" />
-              <img src="/insta.svg" alt="" />
-              <img src="/in.svg" alt="" />
+            <div className="flex gap-8 justify-start w-4 h-4">
+              <img src="/Facebook.svg" alt="" />
+              <img src="/Twitter.svg" alt="" />
+              <img src="/Insta.svg" alt="" />
+              <img src="/Linkedin.svg" alt="" />
             </div>
           </div>
           <div className="flex justify-between border-gray-300   border-t-2">

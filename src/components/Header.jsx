@@ -6,13 +6,13 @@ import React from "react";
 export default function Header() {
   //   const router = useRouter();
   return (
-    <div className="flex w-[1917px] h-[100px] justify-between items-center  py-9 px-[350px]">
+    <div className="flex content-between w-[1917px] h-[100px]  py-9 px-[260px] gap-80">
       <div className="flex gap-2.5">
-        <img className="w-9 h-9" src="/Logo.svg" alt="" />
+        <img className="w-[158px] h-9" src="/Logo.svg" alt="" />
         <img src="/MetaBlog.svg" alt="" />
       </div>
 
-      <div className="flex gap-10 justify-center text-base items-center">
+      <div className="flex w-[854px] h-9 gap-10 text-base ">
         <button
           className="text-base font-normal text-[#3B3C4A]"
           //   onClick={() => router.push("/")}
